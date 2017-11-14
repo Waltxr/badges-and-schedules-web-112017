@@ -16,7 +16,7 @@ def assign_rooms(list_of_speakers)
   list_of_speakers.each_with_index do |speaker, index|
     room_assignments << "Hello, #{speaker}! You'll be assigned to room #{index + 1}"
   end
-  return room_assignments
+  puts room_assignments
 end
 
 def printer
