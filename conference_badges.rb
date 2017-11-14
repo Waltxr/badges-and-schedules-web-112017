@@ -12,7 +12,8 @@ def batch_badge_creator(arr_of_names)
 end
 
 def assign_rooms(list_of_speakers)
-  rooms = Array (1..7)
+  room_assignments = Array.new
+  list_of_speakers.each_with_index |speaker, index|
 
 end
 
