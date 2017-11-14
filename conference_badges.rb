@@ -13,4 +13,9 @@ end
 
 def assign_rooms(list_of_speakers)
   rooms = Array (1..7)
+
+end
+
+def printer
+
 end
