@@ -25,5 +25,4 @@ def printer
   assign_rooms.each do |assignement|
     puts assignment
   end
-  return
 end
